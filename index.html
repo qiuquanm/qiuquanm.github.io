@@ -1,0 +1,508 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>数据大中国</title>
+		 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+		<link href="css/font-awesome.css" rel="stylesheet" />
+		  <link rel="stylesheet" href="css/swiper.min.css">
+		  <link href="css/indexstyle.css" rel="stylesheet" />
+		  <link rel="Shortcut Icon" href="images/index.ico" />
+		<script src="js/index-slades.js"></script>
+		<script src="js/index-develop-data.js"></script>
+		<script src="js/index-data.js"></script>
+		<script src="js/echarts.js"></script>
+		<script src="js/swiper.min.js"></script>
+		
+
+	</head>
+
+	<body>
+		<div id="index-max">
+			
+			<div class="index-top">
+				
+				<div class="index-top-logo">
+					
+				</div>
+				
+				<div class="index-nav" >
+					<ul id="index-top-nav">
+						<li>
+						<a href="news.html">
+						<i class="fa fa-bus" aria-hidden="true"></i>
+						时事新闻
+						</a>
+						</li>
+						
+						<li>
+						<a>
+						<i class="fa fa-rocket" aria-hidden="true"></i>
+						祖国发展
+						</a>
+						</li>
+						
+						<li>
+						<a>
+						<i class="fa fa-ship" aria-hidden="true"></i>
+						数据中国
+						</a>
+						</li>
+						
+						<li>
+						<a>
+						<i class="fa fa-fighter-jet" aria-hidden="true"></i>
+						中国科技
+						</a>
+						</li>
+						
+						<li>
+						<a href="about.html">
+						<i class="fa fa-bicycle" aria-hidden="true"></i>
+						关于我们
+						</a>
+						</li>
+						
+					
+					</ul>
+					
+				</div>
+				
+		
+				
+				
+				<div class="slades" onmouseover="clearInterval(sss);" onmouseleave="sss=setInterval(slade, 3000);">
+					
+					<div id="slade-images" >
+						<a href="https://www.qq.com"><img src="images/business-1.jpg"></a>
+						<a><img src="images/business-2.jpg"></a>
+						<a><img src="images/develop-6.jpg"></a>
+					</div>
+					
+					<div class="slade-bts">
+						<button id="slade-bt1" onclick="slbt(-200,2)"></button>
+						<button id="slade-bt2" onclick="slbt(0,0)"></button>
+						<button id="slade-bt3" onclick="slbt(-100,1)"></button>
+					</div>
+				
+					<a class="slade-newleft" onclick="slback()">
+					<i class="fa fa-chevron-left" aria-hidden="true"></i>
+					</a>
+					
+					<a class="slade-newright" onclick="slade()">
+					<i class="fa fa-chevron-right" aria-hidden="true"></i>
+					</a>
+					
+				
+				
+					</div>
+				
+			</div>
+			
+			<div id="index-news">
+				<div class="news-title">
+					<i id="news-title-logo"class="fa fa-newspaper-o" aria-hidden="true"></i> 
+					<span onclick="window.location.href='https://www.qq.com';">
+					最新新闻
+					<i class="fa fa-arrow-right" aria-hidden="true"></i>
+					</span>
+				</div>
+				
+				<div class="news">
+				<a>
+				<div>
+				<span>香港煽暴人士幕后"军师"曝光</span>
+				<span>《大公报》获得了这些激进分子的内部Telegram通讯，发现他们的幕后联系人是香港立法会反对派议员朱凯廸。</span>
+				</div>
+				</a>
+				
+				<a>
+				<div>
+				<span>我国年内预计将建设超过5万个5G基站</span>
+				<span>8月27日，中国5G智联未来高峰论坛上，工信局局长透露，2019年我国预计将在50个城市建设超过5万个5G基站。</span>
+				</div>
+				</a>
+				
+				<a>
+				<div>
+				<span>量子网络中二元隐变量理论首次实证</span>
+				<span>中国首次在关闭定域性等漏洞的基础上，实现对量子网络中的二元隐变量理论的检验，为量子网络中的实验研究开辟新的道路。</span>
+				</div>
+				</a>
+				
+				<a>
+				<div>
+				<span>上海正成为技能人才的新“磁场”</span>
+				<span>上海作为2021年第46届世界技能大赛的举办地,世界技能大赛金牌选手“从一个到一群”，高技能人才占比超过三成，上海正在成为技能人才的新“磁场”。</span>
+				</div>
+				</a>
+				
+				<a>
+				<div>
+				<span>从计划经济到社会主义市场经济</span>
+				<span>我国商品已经实现市场重要生产要素市场化改革不断推进。第十五届中国国际人才交流大会在深圳,共有8场招聘会提供31380个职位面向海内外高端人才进行招聘。</span>
+				</div>
+				</a>
+				
+			
+			
+				
+				</div>
+				
+				
+			</div>
+			
+			
+			<div id="index-develop">
+				<div class="develop-title">
+				<i class="fa fa-sort-amount-asc" aria-hidden="true"></i>
+				<span>国家发展</span>
+				</div>
+				
+				<div class="develop-1" onmouseover="developspan1=setInterval(nu1,60);">
+				<p><i class="fa fa-american-sign-language-interpreting" aria-hidden="true"></i>
+				中国改革开放历经<span id="develop-1-1"></span>年了</p>
+				
+				<p>1978年12月18日－22日，邓小平召开了党十一届三中全会。它是我党历史上具有深远意义的伟大转折：
+				<br/>
+				从十一届三中全会开始，以邓小平为核心的党中央逐步开辟了一条建设中国特色社会主义的道路，41年来，中国人民沿着这条道路取得了举世瞩目的建设成就。会议揭开了中国社会主义改革开放的序幕。
+				</p>
+				
+				<div class="develop-left">
+					<span class="develop-left-title">
+						<i class="fa fa-diamond" aria-hidden="true"></i>
+						历史经过</span>
+					<hr />	
+					<p>1978年十一届三中全会召开</p>
+					<p>1979年设立经济特区</p>
+					<p>1982年家庭联产承包责任制确立</p>
+					<p>1984年有计划的商品经济提出</p>
+					<p>1986年全民所有制企业改革启动</p>
+					<p>1987年“一个中心、两个基本点”基本路线提出</p>
+					<p>1988年“科学技术是第一生产力”提出</p>
+					<p>1992年社会主义市场经济体制改革目标确立</p>
+					<p>1993年建立现代企业制度</p>
+					<p>1993年进行财税体制改革</p>
+					<p>1994年外贸体制综合配套改革</p>
+					<p>1992、1994年医疗、住房市场化改革施行</p>
+					<p>1995年提出“两个根本性转变”目标</p>
+					<p>1996年外汇管理体制改革取得重大进展</p>
+					<p>1997年“十五大”提出党在社会主义初级阶段的基本纲领</p>
+					<p>1999年明确非公有制经济是社会主义市场经济的重要组成部分</p>
+					<p>1999年提出西部大开发战略</p>
+					<p>2001年中国正式成为世贸组织成员</p>
+					<p>2002年“十六大”确定全面建设小康社会的奋斗目标</p>
+					<p>2003年振兴东北地区等老工业基地战略提出</p>
+					<p>2004年国有商业银行进行股份制改革</p>
+					<p>2004年保护私有财产入宪</p>
+					<p>2005年农业税条例废止</p>
+					<p>2005年提出建设社会主义新农村的重大历史任务</p>
+					<p>2005年股权分置改革试点启动</p>
+					<p>2006年作出构建社会主义和谐社会重大决定</p>
+					<p>2007年《物权法》出台</p>
+				</div>
+				
+				<div class="develop-right"><img src="images/develop-1.jpg"/></div>
+				</div>
+				
+				
+				<div class="develop-2" onmouseover="developspan2=setInterval(nu2,60);">
+				<p><i class="fa fa-cubes" aria-hidden="true"></i>
+				新中国成立<span id="develop-1-2"></span>年了</p>
+
+		
+				<ul>
+					
+					<li>
+						<a></a>
+						
+					</li>
+					
+					<li>
+						<a></a>
+						
+					</li>
+					
+					<li>
+						<a></a>
+						
+					</li>
+					
+					<li>
+						<a>	</a>
+						
+					</li>
+					
+					<li>
+						<a></a>
+						
+					</li>
+					
+					<li>
+						<a></a>
+						
+					</li>
+					
+					<li>
+						<a></a>
+						
+					</li>
+					
+					
+					<li>
+						<a></a>
+						
+					</li>
+					
+					
+					<li>
+						<a></a>
+						
+					</li>
+					
+				</ul>
+				
+
+				
+				
+				</div>
+				
+				
+				
+			</div>
+			<!-- develop结束 -->
+			
+			
+			
+			
+			<div id="index-datas" onmouseover="clearInterval(indexdatas);" onmouseleave="indexdatas=setInterval(moveindexdata, 8000);">
+				<div id="index-datas-title">
+					<span>
+					<i class="fa fa-database" aria-hidden="true"></i>
+					用数据看中国变化</span>
+					
+					<a href="https://www.qq.com">
+					数据中国<i class="fa fa-arrow-right" aria-hidden="true"></i>
+					</a>
+				</div>
+				<div id="index-data-slade">
+					
+					<div class="data-slade"  id="data-slade1">
+					</div>
+					<div class="data-slade" id="data-slade2">
+					</div>
+					<div class="data-slade" id="data-slade3">
+					</div>
+			<script>
+				 var myChart = echarts.init(document.getElementById('data-slade1'));
+				  myChart.setOption(option1);
+					var myChart2 = echarts.init(document.getElementById('data-slade2'));
+				   myChart2.setOption(option2);
+				  	var myChart3 = echarts.init(document.getElementById('data-slade3'));
+				  myChart3.setOption(option3);
+			</script>
+					
+					    
+				
+				</div>
+				
+					<div id="data-sladebts">
+					<a id="data-sladebt1" onclick="indexdataslbt(-200,2)"></a>
+					<a id="data-sladebt2" onclick="indexdataslbt(0,0)"></a>
+					<a id="data-sladebt3" onclick="indexdataslbt(-100,1)"></a>
+				</div>
+				
+				
+			</div>
+	
+				<div id="index-gods">
+					
+				<div id="gods-title">
+					<h1><i class="fa fa-users" aria-hidden="true"></i>中国现代的封神榜</h1>
+					</div>
+					
+					
+				<div class="swiper-container">
+				     <div class="swiper-wrapper">
+						 
+				         <div class="swiper-slide">
+					
+			 <div class="imgBx">
+				 <img src="images/gods-slide2.jpg" />
+			 </div>
+			 <div class="details">
+				 <h3>火箭之王<br><span>钱学森<br/>常常是最后一把钥匙打开了门</span></h3>
+			 </div>
+							 
+						 </div>
+						 
+						  <div class="swiper-slide">
+			 <div class="imgBx">
+				 <img src="images/gods-slide1.jpg" />
+			 </div>
+			 <div class="details">
+				 <h3>杂交水稻之父<br><span>袁隆平<br>我的毕生追求就是让所有人远离饥饿</span></h3>
+			 </div>
+			 
+						 </div>
+						 
+						  <div class="swiper-slide">
+			 <div class="imgBx">
+				 <img src="images/gods-slide3.jpg" />
+			 </div>
+			 <div class="details">
+				 <h3>中国脊梁<br>
+				 <span>鲁迅<br>真的猛士，敢于直面惨淡的人生，敢于正视淋漓的鲜血</span></h3>
+			 </div>
+			 
+						 </div>
+						 
+						  <div class="swiper-slide">
+			 <div class="imgBx">
+				 <img src="images/gods-slide4.jpg" />
+			 </div>
+			 <div class="details">
+				 <h3>抗疟医仙<br><span>屠呦呦<br>我向往正直，蒿茎一样的正直</span></h3>
+			 </div>
+			 
+						 </div>
+						 
+						 
+						  <div class="swiper-slide">
+			 <div class="imgBx">
+				 <img src="images/gods-slide5.jpg" />
+			 </div>
+			 <div class="details">
+				 <h3>核平元勋<br><span>邓稼先<br>我不爱武器,我爱和平,但为了和平,我们需要武器</span></h3>
+			 </div>
+			 
+						 </div>
+						 
+						  <div class="swiper-slide">
+			 <div class="imgBx">
+				 <img src="images/develop-1.jpg" />
+			 </div>
+			 <div class="details">
+				 <h3>建设之神<br><span>邓小平<br>发展才是硬道理!</span></h3>
+			 </div>
+			 
+						 </div>
+						 
+			
+				     </div>
+				     <!-- Add Pagination -->
+				     <div class="swiper-pagination"></div>
+				 </div>
+				
+				 <!-- Swiper JS -->
+				 <script src="js/swiper.min.js"></script>
+				
+				 <!-- Initialize Swiper -->
+				<script>
+				 var swiper = new Swiper('.swiper-container', {
+				     pagination: '.swiper-pagination',
+				     effect: 'coverflow',
+				     grabCursor: true,
+				     centeredSlides: true,
+				     slidesPerView: 'auto',
+				     coverflow: {
+				         rotate: 50,
+				         stretch: 0,
+				         depth: 100,
+				         modifier: 1,
+				         slideShadows : true
+				     }
+				 });
+				 </script>
+			
+				</div>
+				
+				
+				<div id="index-foot">
+					<div class="index-foot-left">
+						<div id="index-foot-tel">
+							<div id="index-foot-telbt" >
+							<i class="fa fa-phone" aria-hidden="true"></i>
+							</div>
+							<span>400-1234567</span>
+						</div>
+						
+					</div>
+					
+					<div class="index-foot-center">
+						<div id="index-foot-nav">
+							<a href="about.html">
+							<span></span>
+							<span></span>
+							<span></span>
+							<span></span>
+							关于我们
+							</a>
+							
+							<a>
+							<span></span>
+							<span></span>
+							<span></span>
+							<span></span>
+							数据中国
+							</a>
+							
+							<a href="news.html">
+							<span></span>
+							<span></span>
+							<span></span>
+							<span></span>
+							时事新闻
+							</a>
+							
+							
+							</div>
+						
+						<div id="foot-copy">
+				<span>版权所有 © 1999-2019 广西电力职业技术学院 Copyright © 1999-2019 300.cn All Rights Reserved</span>
+							
+						</div>
+					</div>
+					
+					
+					<div class="index-foot-right">
+						
+						<div id="index-qq">
+							<i class="fa fa-qq" aria-hidden="true"></i>
+							<img src="images/qq.jpg" />
+						</div>
+						
+						<div id="index-wx">
+							<i class="fa fa-weixin" aria-hidden="true"></i>
+							<img src="images/wx.jpg" />
+						</div>
+						
+						
+					</div>
+					
+					
+					
+					
+					
+				</div>
+				
+				
+				
+				
+				
+			</div>
+			
+			
+			
+			
+	
+		
+		
+	</body>
+
+</html>
+			
+			
+			
+	
