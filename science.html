@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>中国科技</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/science.css" rel="stylesheet" />
+	</head>
+
+	<body>
+	
+
+	<div id="science-top">
+		<div id="science-top-logo">logo</div>
+			<div id="science-top-nav">nav</div>
+	</div>
+
+	<div id="float-music">
+		<div id="science-music" onclick="playPause()">
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			
+			
+		</div>
+		
+	</div>
+<audio id="musicplayer"  autoplay:autoplay; src="music/science.mp3" ></audio>
+<script>
+	var myAudio = document.getElementById('musicplayer'); 
+	function playPause(){
+        if(myAudio.paused){
+            myAudio.play();
+
+        }else{
+            myAudio.pause();
+        }
+    }
+	
+	
+</script>
+	</body>
+
+</html>
