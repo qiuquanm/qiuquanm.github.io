@@ -8,7 +8,7 @@
 	position: absolute;
 	width:100%;
 	height: 80vh;
-	border: 1px solid red;
+	/* border: 1px solid red; */
 	background-image:url(../images/science1.jpg) ;
 	background-size: 120% 110%;
 	transition: .5s;
@@ -107,7 +107,7 @@
 	position: absolute;
 	width: 3vw;
 	height: 3vw;
-	border:0.2vw solid #29ffef;
+	/* border:0.2vw solid #29ffef; */
 	border-radius: 50%;
 	display: flex;
 	cursor: pointer;
