@@ -1,43 +1,43 @@
-*{
+* {
 	margin: 0;
 	padding: 0;
 }
 
-#about-top{
+#about-top {
 	position: absolute;
 	top: 0vh;
-	left:5vw;
+	left: 5vw;
 	width: 90vw;
 	height: 10vh;
 
 	display: flex;
 }
 
-#about-top-logo{
-	
+#about-top-logo {
+
 	position: relative;
-	top:1vh;
-	left:1vh;
+	top: 1vh;
+	left: 1vh;
 	width: 8vh;
 	height: 8vh;
-	
+
 	background-image: url(../images/chinalogo.svg);
 }
 
-#about-top-nav{
-		
+#about-top-nav {
+
 	position: relative;
-	top:1vh;
-	left:9vw;
+	top: 1vh;
+	left: 9vw;
 	width: 70vw;
 	height: 8vh;
-	
-	
-	
-	
+
+
+
+
 }
 
-#about-top-nav ul{
+#about-top-nav ul {
 	position: absolute;
 	width: 100%;
 	height: 100%;
@@ -45,16 +45,16 @@
 	display: flex;
 }
 
-#about-top-nav ul li{
+#about-top-nav ul li {
 	position: relative;
 	width: 10%;
 	height: 70%;
 	/* border: 1px solid red; */
-	margin-left:2vw;
-	line-height:6vh ;
+	margin-left: 2vw;
+	line-height: 6vh;
 }
 
-#about-top-nav ul li a{
+#about-top-nav ul li a {
 	display: block;
 	width: 100%;
 	height: 100%;
@@ -63,14 +63,14 @@
 	color: black;
 	text-align: center;
 	transition: .5s;
-	font-family:KaiTi;
+	font-family: KaiTi;
 }
 
-#about-top-nav ul li a:hover{
-	color:#1E90FF;
+#about-top-nav ul li a:hover {
+	color: #1E90FF;
 }
 
-#about-top-nav ul li:nth-child(1) a{
+#about-top-nav ul li:nth-child(1) a {
 	font-weight: 900;
 	border-bottom: 0.5vh solid #1E90FF;
 }
@@ -78,11 +78,11 @@
 
 
 
-#about-bigimage{
-	
+#about-bigimage {
+
 	position: absolute;
 	top: 10vh;
-	lef:0;
+	lef: 0;
 	width: 100%;
 	height: 80vh;
 	background-image: url(../images/about.jpg);
@@ -90,52 +90,56 @@
 }
 
 
-#about-imagenav{
+#about-imagenav {
 	position: absolute;
 	top: 93vh;
-	left:30%;
+	left: 30%;
 	width: 40%;
 	height: 15vh;
-/* 	border: 1px solid skyblue; */
+	/* 	border: 1px solid skyblue; */
 }
 
 
-#about-imagenav ul{
+#about-imagenav ul {
 	position: absolute;
 	width: 100%;
 	height: 100%;
 	list-style: none;
 	display: flex;
-	
+
 }
-#about-imagenav ul li{
+
+#about-imagenav ul li {
 	position: relative;
-	top:0;
+	top: 0;
 	width: 30%;
 	height: 100%;
 	margin-left: 1vw;
 	transition: .5s;
 }
 
-#about-imagenav ul li a{
+#about-imagenav ul li a {
 	position: relative;
 	display: block;
 	width: 100%;
 	height: 100%;
-/* 	border: 1px solid red; */
+	/* 	border: 1px solid red; */
 	text-decoration: none;
 	transition: .5s;
 }
 
 
-#about-imagenav ul li:hover{
-	top:-5vh;
--moz-box-shadow:-3px 8px 4px #333333; -webkit-box-shadow:-3px 8px 4px #333333; box-shadow:-3px 8px 4px #333333;
+#about-imagenav ul li:hover {
+	top: -5vh;
+	-moz-box-shadow: -3px 8px 4px #333333;
+	-webkit-box-shadow: -3px 8px 4px #333333;
+	box-shadow: -3px 8px 4px #333333;
 }
-#about-imagenav ul li a span{
+
+#about-imagenav ul li a span {
 	position: absolute;
-	top:70%;
-	left:10%;
+	top: 70%;
+	left: 10%;
 	width: 90%;
 	font-size: 1vw;
 	font-weight: 800;
@@ -146,29 +150,30 @@
 
 
 
-#about-imagenav ul li:hover a span{
-	color:#f6482c;
-	
+#about-imagenav ul li:hover a span {
+	color: #f6482c;
+
 }
 
 
 
 
-#about-imagenav ul li:nth-child(1) a{
+#about-imagenav ul li:nth-child(1) a {
 	background-image: url(../images/about-2.jpg);
 	background-size: 100% 100%;
 }
 
-#about-imagenav ul li:nth-child(2) a{
+#about-imagenav ul li:nth-child(2) a {
 	background-image: url(../images/about-3.jpg);
 	background-size: 100% 100%;
 }
-#about-imagenav ul li:nth-child(3) a{
+
+#about-imagenav ul li:nth-child(3) a {
 	background-image: url(../images/about-4.jpg);
 	background-size: 100% 100%;
 }
 
-#about-school{
+#about-school {
 	position: absolute;
 	top: 109vh;
 	width: 100%;
@@ -178,39 +183,44 @@
 	background-size: 100% 130%;
 }
 
-#about-school span{
-	
+#about-school span {
+
 	position: absolute;
-	left:5%;
+	left: 5%;
 	font-size: 1.8vw;
 	font-weight: 800;
 	color: white;
 }
 
 
-#about-slides{
+#about-slides {
 	position: absolute;
-	left:100%;
-	top:20%;
+	left: 100%;
+	top: 20%;
 	height: 60%;
-	
+
 	width: 300%;
-	animation:about-slide infinite 35s;
+	animation: about-slide infinite 35s;
 	animation-timing-function: linear;
-	animation-direction:alternate;
+	animation-direction: alternate;
 }
 
-#about-slides:hover{
-	animation-play-state:paused
+#about-slides:hover {
+	animation-play-state: paused
 }
 
-#about-slides img{
+#about-slides img {
 	margin-right: 3vw;
 	height: 100%;
 	width: 5%;
 }
 
-@keyframes about-slide{
-	from{left:0%;}
-	to{left:-180%;}
+@keyframes about-slide {
+	from {
+		left: 0%;
+	}
+
+	to {
+		left: -180%;
+	}
 }
