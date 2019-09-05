@@ -168,7 +168,7 @@
 	left:15vw;
 	width: 70vw;
 	height: 250vh;
-	border: 1px solid black;
+	/* border: 1px solid black; */
 	display: flex;
 	flex-wrap: wrap;
 	align-content: flex-start;
@@ -178,7 +178,7 @@
 	position: relative;
 	width: 70vw;
 	height: 30vh;
-	border: 1px solid red;
+	/* border: 1px solid red; */
 	display: block;
 	margin: 1vw 0  1.5vw 0;
 	display: flex;
@@ -194,7 +194,7 @@
 	display: block;
 	width:69%;
 	height: 100%;
-	border: 1px solid red;
+	/* border: 1px solid red; */
 }
 
 
@@ -216,7 +216,7 @@
 	position: relative;
 	width: 32vw;
 	height: 50vh;
-	border: 1px solid blue;
+	/* border: 1px solid blue; */
 	margin:0 1vw 0 1.5vw;
 }
 
