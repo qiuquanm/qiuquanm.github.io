@@ -55,8 +55,8 @@ a{
 #index-top-nav li{
 	position: relative;
 	top:5%;
-	left:3%;
-	width: 23%;
+	left:1%;
+	width: 24%;
 	height: ;
 	margin: 0 1% 0 0 ;
 	cursor: pointer;
@@ -69,8 +69,7 @@ a{
 	width: 100%;
 	height: 100%;
 	text-align: center;
-	display: block;
-	font-size:1.5vw;
+	font-size:3.6vw;
 	font-weight: 900;
 	color: white;
 	transition: .5s;
@@ -224,7 +223,7 @@ color:#EE2C2C;
 .news-title span{
 /* 	position: absolute;
 	left:10%; */
-	font-size: 2vw;
+	font-size: 6vw;
 	font-weight: 700;
 	cursor: pointer;
 	color:#1C1C1C ;
@@ -288,7 +287,7 @@ color:#EE2C2C;
 
 
 .news a div span:nth-child(1){
-	font-size: 1.3vw;
+	font-size: 3vw;
 	
 }
 .news a:hover span:nth-child(1){
@@ -371,11 +370,11 @@ background-image: url(../images/news-3-2.jpg);
 	/* border: 1px solid red; */
 }
 .develop-title i{
-	font-size:6vw;
+	font-size:9vw;
 	color: crimson;
 }
 .develop-title span{
-	font-size:5vw;
+	font-size:8vw;
 	color: crimson;
 	margin: 0 0 0 1rem;
 	letter-spacing:0.5rem;
@@ -397,13 +396,13 @@ background-image: url(../images/news-3-2.jpg);
 
 .develop-1 p{
 	margin: 3vh 1vw 0 1vw;
-	font-size:1.3vw;
+	font-size:4vw;
 }
 
 
 
 .develop-1 p:nth-child(1){
-	font-size:1.5vw;
+	font-size:3vw;
 	color: black;
 	margin: 3vh 0 0 1vw;
 	font-weight: 800;
@@ -441,7 +440,7 @@ background-image: url(../images/news-3-2.jpg);
 .develop-right{
 	width: 41vw;
 	float: right;
-	height: 20vh;
+	height: 30vh;
 /* 	border:1px solid red; */
 	margin: 3rem 1% 0 1%;
 	border-radius: 0.9375rem;
@@ -452,7 +451,7 @@ background-image: url(../images/news-3-2.jpg);
 	border-radius: 0.9375rem;
 }
 .develop-left-title{
-	font-size:1.5rem;
+	font-size:1.5vw;
 	color: crimson;
 	margin: 0 0 0 1rem;
 	letter-spacing:0.5rem;
@@ -473,7 +472,7 @@ background-image: url(../images/news-3-2.jpg);
 
 .develop-2{
 	position:  absolute;
-	top:61vh;
+	top:70vh;
 	width: 100%;
 	height: 50vh;
 	/* border: 1px solid red; */
@@ -527,7 +526,7 @@ background-image: url(../images/news-3-2.jpg);
 	line-height: 30vh;
 	text-decoration: none;
 	color: white;
-	font-size: 1.5vw;
+	font-size:3vw;
 	text-align: center;
 	transition: .5s;
 	font-weight: 800;
@@ -810,15 +809,17 @@ background-image: url(../images/news-3-2.jpg);
 		position: absolute;
 		top:0;
 		left:0;
-		width:80%;
+		width:100%;
 		height: 100%;
+/* 		display: flex; */
 }
 #index-foot-nav a{
-	position: absolute;
+	display: block;
+	width: 40%;
+	height: 3vh;
 	color: white;
-	width: 5v;
 	text-decoration: none;
-	font-size: 0.2px;
+	font-size: 3vw;
 	overflow: hidden;
 	text-align: center;
 }
@@ -848,7 +849,7 @@ background-image: url(../images/news-3-2.jpg);
 }
 
 #index-foot-nav a:nth-child(2){
-
+	display: none;
 	top:2%;
 	left:46%;
 }
@@ -856,7 +857,7 @@ background-image: url(../images/news-3-2.jpg);
 #index-foot-nav a:nth-child(3){
 
 	top:2%;
-	left:89%;
+	left:50%;
 }
 
 

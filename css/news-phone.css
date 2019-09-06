@@ -45,15 +45,14 @@
 	height: 100%;
 	list-style: none;
 	display: flex;
-/* 	border: 1px solid red; */
 }
 
 .news-top-nav ul li{
 	position: relative;
-	width: 10vw;
+	width: 10%;
 	height: 100%;
-/* 	border: 1px solid red; */
-	margin-left:3vw;
+	/* border: 1px solid red; */
+	margin-left:5vw;
 	line-height:6vh ;
 }
 
@@ -77,9 +76,6 @@
 	font-weight: 900;
 	border-bottom: 0.3vh solid #1E90FF;
 }
-
-
-
 
 #news-information{
 	

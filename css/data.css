@@ -4,31 +4,19 @@
 }
 
 
-#date-top {
-	position: absolute;
-	width: 100%;
-	height: 8vh;
-	border: 1px solid red;
-}
-
-
-
-
 .data-top {
 	position: absolute;
-	top: 0.5rem;
-	width: 90vw;
+	top: 0;
+	width: 100%;
 	height: 10vh;
-	left: 2.5vw;
-	/* border: 1px solid skyblue; */
 	display: block;
-
+	background: linear-gradient(to right, #daf8fc,  #00BFFF);
 }
 
 .data-top-logo {
 	position: absolute;
-	width: 10vh;
-	height: 10vh;
+	width: 8vh;
+	height: 8vh;
 	background-image: url(../images/chinalogo.svg);
 	background-size: 100% 100%;
 
@@ -36,9 +24,9 @@
 
 .data-top-nav {
 	position: absolute;
-	top: 20%;
-	left: 11vw;
-	width: 77vw;
+	top: 0;
+	left: 18vw;
+	width: 71vw;
 	/* border: 1px solid black; */
 	height: 60%;
 }
@@ -66,14 +54,14 @@
 	height: 100%;
 	text-decoration: none;
 	font-size: 1.6vw;
-	color: black;
+	color:#F0FFFF;
 	text-align: center;
 	transition: .5s;
 	font-family: KaiTi;
 }
 
 .data-top-nav ul li a:hover {
-	color: #1E90FF;
+	color:#ff3d41;
 }
 
 .data-top-nav ul li:nth-child(1) a {
@@ -88,7 +76,7 @@
 	top: 10vh;
 	width: 100%;
 	height: 35vh;
-	border: 1px solid red;
+
 	overflow: hidden;
 }
 
@@ -105,33 +93,27 @@
 	border: 1px solid green;
 } */
 
-#data-showdata-left {
+#data1-showdata-left {
 	position: absolute;
 	top: 47vh;
 	width: 49vw;
 	height: 45vh;
-	border: 1px solid brown;
+
 }
 
-#data-showdata-right {
+#data1-showdata-right {
 	position: absolute;
 	left: 50vw;
 	top: 47vh;
 	width: 48.5vw;
 	height: 45vh;
-	border: 1px solid blueviolet;
+	
 }
 
-#data-show-title {}
-
-#date-show-list1 {}
-
-#date-show-list2 {}
-
-#date-show-list3 {}
-
-#date-show-list4 {}
-
-#date-show-list5 {}
-
-#date-show-list6 {}
+#data-Progress-bar{
+	position: absolute;
+	top: 94vh;
+	width: 100%;
+	height: 80vh;
+	
+}

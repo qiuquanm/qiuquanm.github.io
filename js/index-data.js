@@ -11,7 +11,7 @@
 					  //标题颜色
 							//color: '#00BFFF',
 							 color:['#00BFFF','#c23531', '#61a0a8', '#d48265', '#91c7ae','#749f83',  '#ca8622', '#bda29a','#6e7074', '#546570', '#c4ccd3'],
-							fontSize:'12',
+							fontSize:'10',
 							fontWeight:'600',
 					                },
 					        orient: 'vertical',

@@ -3,73 +3,92 @@
 
 	<head>
 		<meta charset="utf-8">
-		<title></title>
+		<title>数据中国</title>
 		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
 		<link href="css/data.css" rel="stylesheet" />
-
-
+		<link rel="Shortcut Icon" href="images/index.ico" />
+		<script src="js/echarts.js"></script>
+		<script src="js/datas.js"></script>
 	</head>
 
 
 
 	<body>
-		<!-- 		<script src="js/data.js"></script>
-		<script type="text/javascript">
-			mui.init()
-		</script> -->
 
 
-			<div class="data-top">
-				<div class="data-top-logo">
-					
-				</div>
-
-				<div class="data-top-nav">
-
-					<ul>
-						<li>
-							<a href="index.html">首页</a>
-						</li>
-
-						<li>
-							<a href="#">祖国发展</a>
-						</li>
-
-
-						<li>
-							<a href="data.html">数据中国</a>
-						</li>
-						
-						<li>
-							<a href="science.html">科技创新</a>
-						</li>
-
-						<li>
-							<a href="about.html">关于我们</a>
-						</li>
-
-					</ul>
-
-				</div>
+		<div class="data-top">
+			<div class="data-top-logo">
 
 			</div>
 
+			<div class="data-top-nav">
+
+				<ul>
+					<li>
+						<a href="index.html">首页</a>
+					</li>
+
+					<li>
+						<a href="#">祖国发展</a>
+					</li>
+
+
+					<li>
+						<a href="news.html">时事新闻</a>
+					</li>
+
+					<li>
+						<a href="science.html">科技创新</a>
+					</li>
+
+					<li>
+						<a href="about.html">关于我们</a>
+					</li>
+
+				</ul>
+
+			</div>
+
+		</div>
+
 		<div id="data-image">
-			<img src="images/data-1-1.jpg" >
-			
+			<!-- <img src="images/data-1-1.jpg" > -->
+
 		</div>
 
 
-		<div id="data-showdata-left">
-			<span></span>
-			<p></p>
-		</div>
+		<div id="data1-showdata-left">
 
-		<div id="data-showdata-right">
-			<a>data-showdata-right</a>
 		</div>
 
 
+
+
+
+		<div id="data1-showdata-right">
+
+		</div>
+
+		<div id="data-Progress-bar">
+
+		</div>
+
+		<script type="text/javascript">
+			var myChart1 = echarts.init(document.getElementById('data1-showdata-left'));
+			myChart1.setOption(option1);
+
+
+
+			var myChart2 = echarts.init(document.getElementById('data1-showdata-right'));
+			myChart2.setOption(option2);
+
+			var myChart3 = echarts.init(document.getElementById('data-Progress-bar'));
+			myChart3.setOption(option3);
+
+
+			var myChart4 = echarts.init(document.getElementById('data-image'));
+			myChart4.setOption(option4);
+		</script>
 
 	</body>
 
